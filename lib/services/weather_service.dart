@@ -1,7 +1,9 @@
 import 'package:dio/dio.dart';
 
 class WeatherService {
-  final String apiKey = '175e5459cc056ced55fab242a7d93640';
+  
+
+  final String apiKey = 'your key';
   final Dio _dio = Dio();
 
   Future<Map<String, dynamic>> fetchWeather(
